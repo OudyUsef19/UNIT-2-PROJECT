@@ -19,6 +19,3 @@ def mekkah_view(request:HttpRequest):
     
     return render(request,"main/mekkah.html") 
 
-def test_view(request:HttpRequest):
-    
-    return render(request,"main/test.html") 
